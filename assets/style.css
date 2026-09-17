@@ -38,6 +38,7 @@ em{font-style:italic}
 .hero h1{font-family:var(--display);font-weight:400;font-size:clamp(46px,6vw,76px);line-height:1.02;letter-spacing:-.02em;margin:0 auto;max-width:1000px;text-wrap:balance;font-variation-settings:"opsz" 144,"SOFT" 50,"WONK" 0}
 .hero .sub{font-family:var(--display);font-weight:400;font-size:clamp(26px,3vw,40px);line-height:1.1;letter-spacing:-.01em;margin:10px 0 0;font-variation-settings:"opsz" 48,"SOFT" 50,"WONK" 0}
 .hero.compact h1{font-size:clamp(34px,4.4vw,56px);line-height:1.08;max-width:860px}.hero.compact .lede{max-width:760px}
+.hero .lede a{border-bottom:1px solid currentColor;transition:color .15s}.hero .lede a:hover{color:var(--accent)}
 .hero .lede{font-size:20px;line-height:30px;margin:24px auto 0;max-width:600px;text-wrap:pretty}
 .article{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,var(--measure)) minmax(0,1fr);column-gap:clamp(24px,4vw,72px);padding:24px var(--padr) 0 var(--padl)}
 .toc{grid-column:1;justify-self:end;width:var(--toc);position:sticky;top:96px;align-self:start;font-size:13px;line-height:18px;padding-top:34px}
